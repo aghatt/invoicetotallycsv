@@ -8,10 +8,9 @@ Visit the application: [https://aghatt.github.io/invoicetotallycsv](https://agha
 
 ## Features
 
-- 📄 **PDF & Image Support**: Upload PDF invoices or images (JPEG, PNG)
-- 🤖 **AI-Powered Extraction**: Uses Grok AI to extract invoice data automatically
-- 📊 **Tally XML Generation**: Converts extracted data to Tally ERP XML format
-- 🎨 **Modern UI**: Beautiful, responsive interface
+- **PDF & Image Support**: Upload PDF invoices or images (JPEG, PNG)
+- **AI-Powered Extraction**: Uses Grok AI to extract invoice data automatically
+- **Tally XML Generation**: Converts extracted data to Tally ERP XML format
 
 ## How to Use
 
