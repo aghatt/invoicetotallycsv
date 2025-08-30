@@ -4,19 +4,55 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Invoice to Tally</title>
+    <title>Invoice to Tally Converter AI</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <!-- PDF.js library for client-side PDF processing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    
     <!-- Tesseract.js for client-side OCR -->
     <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+    
+    <!-- XLSX library for Excel file processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    
+    <!-- Papa Parse for CSV file processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    
     <script>
       // Required configuration for PDF.js
       pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js";
     </script>
 
-  <script type="module" crossorigin src="/invoicetotallycsv/assets/index-Da9Ckny2.js"></script>
-</head>
+    <style>
+      /* Custom animations */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      @keyframes slideUp {
+        from { 
+          transform: translateY(10px); 
+          opacity: 0; 
+        }
+        to { 
+          transform: translateY(0); 
+          opacity: 1; 
+        }
+      }
+      
+      .animate-fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      
+      .animate-slide-up {
+        animation: slideUp 0.3s ease-out;
+      }
+    </style>
+    <script type="module" crossorigin src="/invoicetotallycsv/assets/index-CizL2xBI.js"></script>
+    <link rel="stylesheet" crossorigin href="/invoicetotallycsv/assets/index-B2t4qOq5.css">
+  </head>
   <body>
     <div id="root"></div>
   </body>
